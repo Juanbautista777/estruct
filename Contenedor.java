@@ -9,13 +9,12 @@ public class Contenedor {
         this.prioridad = prioridad;
     }
 
-    // Getters para acceder a los datos de forma segura
     public String getId() { return id; }
     public double getPeso() { return peso; }
     public int getPrioridad() { return prioridad; }
 
     @Override
     public String toString() {
-        return "ID: " + id + " | Peso: " + peso + "t | Prio: " + prioridad;
+        return "Contenedor{" + "id='" + id + '\'' + ", peso=" + peso + "t}";
     }
 }
