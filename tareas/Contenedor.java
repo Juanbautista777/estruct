@@ -1,3 +1,4 @@
+package tareas;
 public class Contenedor {
     private String id;
     private double peso;
